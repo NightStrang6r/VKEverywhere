@@ -16,7 +16,7 @@ app.once('ready', () => {
   });
 
   window.webContents.session
-    .setProxy({proxyRules: "http://leoitdev.ru:3128"})
+    .setProxy({proxyRules: config.proxy})
     .then(
       () => {
         window.loadURL('https://vk.com/');
