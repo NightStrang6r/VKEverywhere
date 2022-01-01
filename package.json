@@ -1,0 +1,15 @@
+{
+  "name": "vk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "electron": "^16.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
